@@ -29,6 +29,7 @@ Para utilizar este projeto, é necessário possuir no sistema:
 - **[FFmpeg](https://ffmpeg.org/)** instalado (necessário para o Whisper processar o áudio)
 
 E instalar as dependências de biblioteca no seu ambiente virtual (`venv`):
+
 ```bash
 pip install -U openai-whisper
 ```
@@ -37,8 +38,10 @@ pip install -U openai-whisper
 
 1. Cole os seus arquivos `.mp3` desejados dentro da pasta `src/`.
 2. Em seu terminal, execute o script:
+   
    ```bash
    python autoWhisper.py
    ```
-3. Aguarde o final do processo (na primeira execução pode demorar um pouco pois o modelo `medium` será baixado). 
-4. Acesse seus textos prontos na pasta `output/`!
+   
+4. Aguarde o final do processo (na primeira execução pode demorar um pouco pois o modelo `medium` será baixado). 
+5. Acesse seus textos prontos na pasta `output/`!
